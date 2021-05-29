@@ -1,0 +1,95 @@
+ .tableDefault {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff;
+  line-height: 18px;
+  font-size: 13px;
+  overflow: hidden;
+  font-family: "Montserrat",sans-serif;
+}
+.tableDefault thead th {
+  padding: 12px 4px;
+  background-color: #ddd;
+  color: #001a69;
+  vertical-align: top;
+  font-size: 14px;
+}
+
+
+.contentBg {
+  background-color: #052754;
+  padding: 15px;
+  background-attachment: fixed;
+  background-position: 50%;
+  background-size: cover;
+}
+.status {
+  display: inline-block;
+  text-align: center;
+  padding: 3px;
+  margin: 1px;
+  border-radius: 3px;
+  color: #fff;
+  width: 27px;
+  min-width: 24px;
+  max-width: 27px;
+  line-height: 20px;
+}
+.status.win {
+  background-color: #22aa4c;
+}
+.status.loss {
+  background-color: red;
+}
+.status.draw {
+  background-color: orange;
+}
+.table-fixture {
+  display: flex;
+  width: 330px;
+  font-weight: 700;
+  color: #001a69;
+  text-transform: uppercase;
+  transform: scaleY(1.1);
+}
+.team-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+  align-items: center;
+}
+ .team-vs {
+  display: flex;
+  align-items: center;
+  color: #f78a0a;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 0 5px;
+  text-transform: none;
+}
+.team-image .homeTeam-name {
+  padding-right: 5px;
+  text-align: right;
+}
+.team-image .awayTeam-name {
+  padding-left: 5px;
+  text-align: left;
+}
+.win-predictor {
+  display: inline-flex;
+  width: 200px;
+  padding: 2px 0;
+  justify-content: center;
+}
+.win-predictor .percentage.win {
+  background-color: #22aa4c;
+  border-radius: 15px 0 0 15px;
+}
+.win-predictor .percentage.draw {
+  background-color: orange;
+}
+.win-predictor .percentage.loss {
+  background-color: red;
+  border-radius: 0 15px 15px 0;
+}
